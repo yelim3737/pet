@@ -11,11 +11,12 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 24000,
     rating: 4.8,
     reviewCount: 85,
-    image: '/src/assets/images/harness_white_puppy_1780996460890.png',
+    image: '/images/harness_white_puppy_1780996460890.png',
+
     additionalImages: [
-      '/src/assets/images/harness_white_puppy_1780996460890.png',
-      '/src/assets/images/hero_white_puppy_1780996428332.png',
-      '/src/assets/images/insta1_white_puppy_1780996526397.png'
+    '/images/harness_white_puppy_1780996460890.png',
+    '/images/hero_white_puppy_1780996428332.png',
+    '/images/insta1_white_puppy_1780996526397.png'
     ],
     badge: 'Best Seller',
     description: '구름 위를 걷는 듯 가볍고 부드러운 착용감의 프리미엄 하네스',
