@@ -1,5 +1,14 @@
 import { Product, Review } from './types';
 
+import heroImg from './assets/images/hero_white_puppy_1780996428332.png';
+import harnessImg from './assets/images/harness_white_puppy_1780996460890.png';
+import toyImg from './assets/images/toy_white_puppy_1780996475478.png';
+import bedImg from './assets/images/bed_white_puppy_1780996491376.png';
+import apparelImg from './assets/images/apparel_white_puppy_1780996511402.png';
+import insta1Img from './assets/images/insta1_white_puppy_1780996526397.png';
+import insta2Img from './assets/images/insta2_white_puppy_1780996540069.png';
+import insta3Img from './assets/images/insta3_white_puppy_1780996554923.png';
+
 export const INITIAL_PRODUCTS: Product[] = [
   {
     id: '1',
@@ -11,12 +20,12 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 24000,
     rating: 4.8,
     reviewCount: 85,
-    image: '/images/harness_white_puppy_1780996460890.png',
+    image: harnessImg,
 
     additionalImages: [
-    '/images/harness_white_puppy_1780996460890.png',
-    '/images/hero_white_puppy_1780996428332.png',
-    '/images/insta1_white_puppy_1780996526397.png'
+      harnessImg,
+      heroImg,
+      insta1Img
     ],
     badge: 'Best Seller',
     description: '구름 위를 걷는 듯 가볍고 부드러운 착용감의 프리미엄 하네스',
@@ -55,11 +64,11 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 8500,
     rating: 4.7,
     reviewCount: 42,
-    image: '/src/assets/images/toy_white_puppy_1780996475478.png',
+    image: toyImg,
     additionalImages: [
-      '/src/assets/images/toy_white_puppy_1780996475478.png',
-      '/src/assets/images/insta2_white_puppy_1780996540069.png',
-      '/src/assets/images/insta1_white_puppy_1780996526397.png'
+      toyImg,
+      insta2Img,
+      insta1Img
     ],
     badge: 'Popular',
     description: '하루 종일 지루할 틈 없는 신기한 바스락 소리와 중독성 있는 삑삑이',
@@ -88,10 +97,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 49000,
     rating: 4.9,
     reviewCount: 128,
-    image: '/src/assets/images/bed_white_puppy_1780996491376.png',
+    image: bedImg,
     additionalImages: [
-      '/src/assets/images/bed_white_puppy_1780996491376.png',
-      '/src/assets/images/insta2_white_puppy_1780996540069.png'
+      bedImg,
+      insta2Img
     ],
     badge: 'Best Bed',
     description: '한 번 누우면 영원히 잠들 것 같은 극강의 포근함을 선사하는 고밀도 숨결 침대',
@@ -191,10 +200,10 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 27500,
     rating: 4.8,
     reviewCount: 39,
-    image: '/src/assets/images/apparel_white_puppy_1780996511402.png',
+    image: apparelImg,
     additionalImages: [
-      '/src/assets/images/apparel_white_puppy_1780996511402.png',
-      '/src/assets/images/insta3_white_puppy_1780996554923.png'
+      apparelImg,
+      insta3Img
     ],
     badge: 'New Arrival',
     description: '포근하고 신축성이 훌륭한 파스텔 레이어드 니트 스타일 패션 아이템',
@@ -285,25 +294,25 @@ export const INITIAL_REVIEWS: Review[] = [
 export const INSTAGRAM_POSTS = [
   {
     id: 'p1',
-    image: '/src/assets/images/insta1_white_puppy_1780996526397.png',
+    image: insta1Img,
     tag: '@moly_the_pup',
     caption: '구름 하네스 덕분에 산책길이 솜사탕처럼 가볍개 🌸 #소소한펫 #솜사탕산책'
   },
   {
     id: 'p2',
-    image: '/src/assets/images/toy_white_puppy_1780996475478.png',
+    image: toyImg,
     tag: '@haru_shiba',
     caption: '당근 장난감 바스락 바스락 완전 내 최애 등극! 🧡 #바스락당근 #내돈내산 #소소한펫'
   },
   {
     id: 'p3',
-    image: '/src/assets/images/bed_white_puppy_1780996491376.png',
+    image: bedImg,
     tag: '@cloud_bed_king',
     caption: '아무리 불러도 일어날 생각을 안 해요 침대가 마약인가 😴 #무중력침대 #댕댕이꿀잠'
   },
   {
     id: 'p4',
-    image: '/src/assets/images/insta2_white_puppy_1780996540069.png',
+    image: insta2Img,
     tag: '@happy_bichon_guri',
     caption: '연어 한 점 먹고 기분 날아갈 영리한 미소포즈 발사! 🐟 #수비드연어 #영양간식 #소소한펫'
   }
