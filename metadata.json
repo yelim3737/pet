@@ -1,0 +1,8 @@
+{
+  "name": "소소한 펫 (Sosohan Pets)",
+  "description": "작지만 확실한 행복을 전하는 프리미엄 셀렉트 펫숍, 소소한 펫입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
